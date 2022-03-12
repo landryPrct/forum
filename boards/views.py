@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
 from .models import Board
 
 
@@ -14,4 +14,12 @@ def home(request):
     #
     #     response_html = '<br>'.join(boards_names)
 
-    return render(request,'home.html',{'boards':boards})
+    return render(request, 'home.html', {'boards': boards})
+
+
+def board_topics(request, id_board):
+    try:
+        board = Board.objects.get(id=id_board)
+    except Board.DoesNotExist:
+        raise Http404
+    return render(request, 'topics.html', {'board': board})
