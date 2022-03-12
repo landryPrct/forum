@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', views.home, name='home'),
-    path('boards/<id_board>/', views.board_topics, name='board_topics'),
+    path('boards/', views.board_topics, name='board_topics'),
+    path('boards/<str:pk>/', views.board_topics, name='board_topics'),
 
 ]

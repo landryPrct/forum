@@ -17,9 +17,9 @@ def home(request):
     return render(request, 'home.html', {'boards': boards})
 
 
-def board_topics(request, id_board):
+def board_topics(request, pk):
     try:
-        board = Board.objects.get(id=id_board)
+        board = Board.objects.get(id=pk)
     except Board.DoesNotExist:
         raise Http404
     return render(request, 'topics.html', {'board': board})

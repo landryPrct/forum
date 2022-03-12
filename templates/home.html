@@ -19,19 +19,21 @@
             <th>Last Post</th>
           </tr>
         </thead>
-        <tbody>
-          {% for board in boards %}
-            <tr>
-              <td>
-                {{ board.name }}
-                <small class="text-muted d-block">{{ board.description }}</small>
-              </td>
-              <td class="align-middle">0</td>
-              <td class="align-middle">0</td>
-              <td></td>
-            </tr>
-          {% endfor %}
-        </tbody>
+              <!-- code suppressed for brevity -->
+      <tbody>
+        {% for board in boards %}
+          <tr>
+            <td>
+              <a href="{% url 'board_topics' board.id %}">{{ board.name }}</a>
+              <small class="text-muted d-block">{{ board.description }}</small>
+            </td>
+            <td class="align-middle">0</td>
+            <td class="align-middle">0</td>
+            <td></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+      <!-- code suppressed for brevity -->
       </table>
     </div>
   </body>
