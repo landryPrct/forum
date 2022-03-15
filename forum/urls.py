@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from boards import views
+from accounts import views as accounts_views
 
 # from django.urls import urls
 
@@ -23,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', views.home, name='home'),
+    path('signup/', accounts_views.signup, name='signup'),
     path('boards/', views.board_topics, name='board_topics'),
     path('boards/<str:pk>/', views.board_topics, name='board_topics'),
     path('boards/<str:pk>/new/', views.new_topic, name='new_topic'),
