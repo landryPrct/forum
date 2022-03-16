@@ -26,7 +26,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', views.home, name='home'),
-    path('signup/', accounts_views.signup, name='signup'), # eregistrement d une nouvelle compte
+    path('signup/', accounts_views.signup, name='signup'),
+    path('login/', auth_views.LoginView.as_view(template_name='login.html'), name='login'),
+    # eregistrement d une nouvelle compte
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),# deconnection
     path('boards/', views.board_topics, name='board_topics'),
     path('boards/<str:pk>/', views.board_topics, name='board_topics'),
