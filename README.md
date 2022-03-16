@@ -46,7 +46,7 @@ Installation  des autres outils comme:
 Creation d'un dossier du Projet
 
 ```bash 
- mkdir foru
+ mkdir forum
  cd forum 
 ```
 
