@@ -1,9 +1,11 @@
-# from django.core.urlresolvers import reverse
-from django.contrib.auth.forms import UserCreationForm
-from django.urls import resolve, reverse
+rom django.contrib.auth.models import User
+from django.core.urlresolvers import reverse
+from django.urls import resolve
 from django.test import TestCase
-from .views import signup
-from django.contrib.auth.models import User
+
+from ..views import signup
+from ..forms import SignUpForm
+
 
 def test_signup_url_resolves_signup_view():
     view = resolve('/signup/')
