@@ -34,7 +34,9 @@ virtualenv 20.13.3 from /home/sammy/.local/lib/python3.5/site-packages/virtualen
 
 **Étape 3 - Installer Django**
 
-
+```bash
+$ pip install django
+```
 
 Installation  des autres outils comme:
 
