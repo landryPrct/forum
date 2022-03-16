@@ -1,5 +1,5 @@
  
-##  🛠 Installation des outils
+##  🛠 Installation de python , pip, virtualenv
 
 Installer Python3 (qui est installer sur ubuntu 20.04)
 Sous windows , il faut le telecharger sus sa page officiel
