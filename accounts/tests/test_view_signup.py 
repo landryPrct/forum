@@ -4,7 +4,7 @@ from django.urls import resolve
 from django.test import TestCase
 
 from ..views import signup
-from ..forms import SignUpForm
+from ..forms import SignUpForm,NewTopicForm
 
 
 def test_signup_url_resolves_signup_view():
