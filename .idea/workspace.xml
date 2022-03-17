@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82bbded7-e645-4815-877c-a988fe6e478e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tests/test_view_signup.py " beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests/test_view_signup.py " afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="app.teamhub.trackedBranches" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
