@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bbded7-e645-4815-877c-a988fe6e478e" name="Changes" comment="">
+    <list default="true" id="82bbded7-e645-4815-877c-a988fe6e478e" name="Changes" comment="changer mot de passe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boards/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/boards/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/boards/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/topics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="app.teamhub.trackedBranches" value="-1q4ka65/master,-1q4ka65/reset_password" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -180,6 +179,11 @@
           <url>file://$PROJECT_DIR$/accounts/tests.py</url>
           <line>78</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
