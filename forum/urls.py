@@ -53,8 +53,8 @@ urlpatterns = [
     path('settings/password/done/', auth_views.PasswordChangeDoneView.as_view(template_name='password_change_done.html'),
     name='password_change_done'),
 
-    path('boards/', views.board_topics, name='board_topics'),
-    path('boards/<str:pk>/', views.board_topics, name='board_topics'),
+    # path('boards/', views.board_topics, name='board_topics'),
+    path('boards/<str:pk>/', views.TopicListView.as_view(), name='board_topics'),
     path('boards/<str:pk>/new/', views.new_topic, name='new_topic'),
     path('boards/<str:pk>/topics/<str:topic_pk>/', views.topic_posts, name='topic_posts'),
     path('boards/<str:pk>/topics/<str:topic_pk>/reply/', views.reply_topic, name='reply_topic'),
