@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# forum
-=======
+
  
 ##  🛠 Installation de python , pip, virtualenv
 
@@ -90,4 +88,4 @@ Dans le django-appsrépertoire, exécutez la commande suivante :
 ```bash
 django-admin startproject forum
 ```
->>>>>>> bc7609cc247602e21a1cdaaad04bbbed35a9fc40
+
